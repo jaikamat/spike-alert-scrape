@@ -1,0 +1,16 @@
+{
+  "name": "spike_alert_scrape",
+  "version": "1.0.0",
+  "description": "scrape functionality for spike_alert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.19.0",
+    "puppeteer-extra": "^2.1.3",
+    "puppeteer-extra-plugin-stealth": "^2.2.2"
+  }
+}
