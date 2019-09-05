@@ -42,6 +42,7 @@ function collectSetLinks($) {
  * page, scraping card data and returning a list array of cards
  */
 async function run() {
+    console.time('scrape');
     const options = {
         headless: true,
         ignoreHTTPSErrors: true,
@@ -125,6 +126,7 @@ async function run() {
     }
 
     await browser.close();
+    console.timeEnd('scrape');
     return cardList;
 }
 
